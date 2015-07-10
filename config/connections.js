@@ -35,10 +35,10 @@ module.exports.connections = {
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "123",
+    password: "123456",
     database: "sails-rest-api",
     charset: 'utf8',
-    collation: 'utf8_swedish_ci'
+    collation: 'utf8_unicode_ci'
   },
 
   /**
